@@ -4,7 +4,7 @@ User defined functions split into 2 parts:
 
 | Function    | Desc |
 | -------- | ------- |
-| pie_chart()  | Used to plot the percentage of different change_status (I,D,N) and destinations   |
+| pie_chart()  | Used to plot the percentage of different change_status (I=increase,D=decrease,N=no change) and destinations   |
 | plot_prices()  | Plots all the prices for a destination with time to trip    |
 | price_change_plot() | Sum of change_status_num aggregated on time_to_trip, for all destinations    |
 
