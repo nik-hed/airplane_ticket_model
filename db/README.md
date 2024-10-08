@@ -30,13 +30,13 @@ this is the data that was collected from an airline's website with BeautifulSoup
 | time_to_trip    | Travel_date - Run_date    |
 | fsl    | 1 if few seats left, 0 else   |
 | price    | Price of flight     |
-| price_level    | log10(price)     |
-| run_date_day_number    | day number of run date     |
-| trip_date_day_number    | day number of trip date    |
-| run_date_month_number    | month number of run date     |
-| trip_date_month_number    | month number of trip date    |
-| weekend    | if weekend 1 (i.e run_day_number == 6,7) else 0     |
-| wednesday    | after initial eda this variable was created.   |
+| price_level    | Log10(price)     |
+| run_date_day_number    | Day number of run date     |
+| trip_date_day_number    | Day number of trip date    |
+| run_date_month_number    | Month number of run date     |
+| trip_date_month_number    | Month number of trip date    |
+| weekend    | If weekend 1 (i.e run_day_number == 6,7) else 0     |
+| wednesday    | After initial eda this variable was created.   |
 | price_inc    | 1 if price increase from the previous day   |
 | price_dec    | 1 if price decrease from the previous day    |
 | price_change    | 1 if price decrease or increase from the previous day    |
