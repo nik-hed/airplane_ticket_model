@@ -44,5 +44,5 @@ this is the data that was collected from an airline's website with BeautifulSoup
 | change_status_num    | 0 if no change, 1 if increase and -1 if decrease   |
 
 
-modeldata/modeldata_all is based on flight_prices with some transformations.
-modeldata_all is just modeldata filtered to exclude trips with no price changes such as trip_id Nice1700866800 and Amsterdam1693519200.
+model_data/model_data_all is based on flight_prices with some transformations.
+model_data is just model_data_all filtered to exclude trips with no price changes such as trip_id Nice1700866800 and Amsterdam1693519200.
