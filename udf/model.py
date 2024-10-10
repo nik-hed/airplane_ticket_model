@@ -182,7 +182,7 @@ def try_model(X_train, X_test, y_train, y_test,inter,smart_model,dummy_model,plo
 def create_interaction_features(X):
 
 
-    poly = PolynomialFeatures(interaction_only=True, include_bias=False)
+    poly = PolynomialFeatures(interaction_only=True)
     X_inter=poly.fit_transform(X)
     X_inter=pd.DataFrame(data=X_inter)
     original_feature_names = X.columns
