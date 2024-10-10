@@ -23,7 +23,7 @@ this is the data that was collected from an airline's website with BeautifulSoup
 | -------- | ------- |
 | run_date  | Date and time when collecting the price    |
 | trip_id  | Unique id for each trip, defined by concat(destination,UNIX_TIMESTAMP(trip_date))    |
-| trip_id_run  | Unique id for each trip and run, defined by concat(`To`,UNIX_TIMESTAMP(trip_date),UNIX_TIMESTAMP(run_date))     |
+| trip_id_run  | Unique id for each trip and run, defined by concat(destination,UNIX_TIMESTAMP(trip_date),UNIX_TIMESTAMP(run_date))     |
 | trip_date | Date for the trip     |
 | destination    | Flight destination    |
 | point_of_departure    | Flight departure    |
