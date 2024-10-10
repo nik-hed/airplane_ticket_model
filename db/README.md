@@ -49,7 +49,7 @@ this is the data that was collected from an airline's website with BeautifulSoup
 model_data/model_data_all is based on flight_prices with some transformations.
 model_data is just model_data_all filtered to exclude trips with no price changes such as trip_id Nice1700866800 and Amsterdam1693519200.
 
-For the model y=F(X) y=change_status the features (X) are:
+For the model y=F(X) y=change_status the features (X) are:\
 time_to_trip,weekend,run_date_day_number,trip_date_month_number,price,price_level,to_nice,to_amsterdam
 
 
