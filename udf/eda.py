@@ -20,6 +20,8 @@ def pie_chart(df):
 
     class_counts = df['destination'].value_counts()
 
+    class_percentages = class_counts / class_counts.sum() * 100
+
     plt.figure(figsize=(6, 6),facecolor='white')
     plt.pie(class_percentages, labels=class_percentages.index, autopct='%1.1f%%', startangle=140)
     plt.title('Percentage of trip to different destinations')
