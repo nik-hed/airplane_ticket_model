@@ -1,6 +1,6 @@
 # airplane_ticket_model
 
-Simple analysis of how prices for airline tickats are changing, based on data collected from an airline during 2023.
+Simple analysis of how prices for airline tickats are changing, based on data collected from an airline during 2023 for 3 different destinations Amsterdam,Nice and Stockholm.
 A classification model is then built in order to find if next day ticket price increases or decreases.
 
 
