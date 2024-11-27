@@ -126,10 +126,6 @@ def try_model(X_train, X_test, y_train, y_test,inter,smart_model,dummy_model,plo
             
                     X_inter_df_train = create_interaction_features(X_train)
                     X_inter_df_test = create_interaction_features(X_test)
-
-                    # Concatenate original features with interaction features
-                    X_inter_df_train = pd.concat([X_train, X_inter_df_train], axis=1)
-                    X_inter_df_test = pd.concat([X_test, X_inter_df_test], axis=1)
                    
 
                     # SelectKBest on the training set
