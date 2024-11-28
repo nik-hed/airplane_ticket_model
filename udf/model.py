@@ -232,7 +232,7 @@ def resample_data(Modeldata_train):
 
 
     y_train_least=df_balanced[['change_status']]
-    X_train_least=df_balanced[['time_to_trip','weekend','run_date_day_number','price','price_level','to_nice','to_amsterdam']]
+    X_train_least=df_balanced[['time_to_trip','weekend','run_date_day_number','trip_date_month_number','price','price_level','to_nice','to_amsterdam']]
 
 
 
@@ -248,7 +248,7 @@ def resample_data(Modeldata_train):
 
 
     y_train_most=df_balanced[['change_status']]
-    X_train_most=df_balanced[['time_to_trip','weekend','run_date_day_number','price','price_level','to_nice','to_amsterdam']]
+    X_train_most=df_balanced[['time_to_trip','weekend','run_date_day_number','trip_date_month_number','price','price_level','to_nice','to_amsterdam']]
 
 
 
