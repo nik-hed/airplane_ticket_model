@@ -91,17 +91,17 @@ def price_change_plot(df,tripto,trip_limit):
 
     # Bar plot
 
-    ax1.bar(sorted_df['time_to_trip'], sorted_df['change_status_num'], color='skyblue', label='Sum of number price changes')
+    ax1.bar(sorted_df['time_to_trip'], sorted_df['change_status_num'], color='skyblue', label='Sum of change_status_num')
     ax1.set_xlabel('Time to trip')
-    ax1.set_ylabel('Sum of price changes')
-    ax1.set_title(f'Pice change anlysis for trip: {tripto}')
+    ax1.set_ylabel('Sum of change_status_num')
+    ax1.set_title(f'Price change anlysis for trip: {tripto}')
     ax1.tick_params(axis='x', rotation=45)
     ax1.legend(loc='upper left')
 
     # Create a second y-axis for the cumulative sum line plot
     ax2 = ax1.twinx()
-    ax2.plot(sorted_df['time_to_trip'], sorted_df['cumulative_sum'], color='red', marker='o', linestyle='-', label='Cumulative sum of price changes')
-    ax2.set_ylabel('Cumulative Sum of price changes')
+    ax2.plot(sorted_df['time_to_trip'], sorted_df['cumulative_sum'], color='red', marker='o', linestyle='-', label='Cumulative sum of change_status_num')
+    ax2.set_ylabel('Cumulative sum of change_status_num')
     ax2.legend(loc='upper right')
 
     plt.grid(True)
