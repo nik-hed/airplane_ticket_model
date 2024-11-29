@@ -94,7 +94,7 @@ def price_change_plot(df,tripto,trip_limit):
     ax1.bar(sorted_df['time_to_trip'], sorted_df['change_status_num'], color='skyblue', label='Sum of change_status_num')
     ax1.set_xlabel('Time to trip')
     ax1.set_ylabel('Sum of change_status_num')
-    ax1.set_title(f'Price change anlysis for trip: {tripto}')
+    ax1.set_title(f'Price change analysis for trip: {tripto}')
     ax1.tick_params(axis='x', rotation=45)
     ax1.legend(loc='upper left')
 
